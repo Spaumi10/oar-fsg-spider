@@ -7,6 +7,7 @@ CREATE TABLE IF NOT EXISTS crimes(
     crime_name TEXT NOT NULL,
     ors TEXT NOT NULL UNIQUE,
     ranking INTEGER,
+    ranking_language TEXT,
     crime_type_id INTEGER,
     FOREIGN KEY (crime_type_id)
         REFERENCES crime_types
