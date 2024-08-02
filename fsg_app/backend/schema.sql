@@ -1,8 +1,13 @@
+DROP TABLE IF EXISTS crimes;
+DROP TABLE IF EXISTS crime_types;
+
+
+
 -- --------------
 -- Table crimes
 -- Stores each crime and accompanying information
 -- --------------
-CREATE TABLE IF NOT EXISTS crimes(
+CREATE TABLE crimes(
     crime_id INTEGER PRIMARY KEY,
     crime_name TEXT NOT NULL,
     ors TEXT NOT NULL UNIQUE,
@@ -19,7 +24,7 @@ CREATE TABLE IF NOT EXISTS crimes(
 -- Table crime_types
 -- Stores crime types 
 -- --------------
-CREATE TABLE IF NOT EXISTS crime_types(
+CREATE TABLE crime_types(
     crime_type_id INTEGER PRIMARY KEY,
     crime_type TEXT NOT NULL
 );
