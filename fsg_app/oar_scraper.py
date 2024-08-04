@@ -25,7 +25,7 @@ check though. List is [722, 723, 724, 4730]
 division_num = 722
 
 url = f"https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision={division_num}"
-driver.implicitly_wait(5)
+driver.implicitly_wait(4)
 driver.get(url)
 
 rules = driver.find_elements(By.CLASS_NAME, "rule_div")
@@ -43,20 +43,23 @@ for rule in rules:
         ranking = ranking_list[-1]
         print(ranking)
 
-    # Get ORSs
+    # Get ORS and crime name
     # Ranking 11 has special path structure.
     if ranking == "11":
-        ors = rule.find_element(By.XPATH, f'//*[@id="content"]/div[2]/p[3]').text
+        crime_line = rule.find_element(By.XPATH, f'//*[@id="content"]/div[2]/p[3]').text
+        ors = re.search(r"\b\d{2,3}\.\d{3}", crime_line)
+        print(ors[0])
+
     else:
         ors_i = 1
-        ors = rule.find_elements(
+        crime_line = rule.find_elements(
             By.XPATH, f'//*[@id="content"]/div[{rank_i}]/p/span'
         )
-        for line in ors:
+        for line in crime_line:
             if "ORS" in line.text:
+                ors = re.search(r"\b\d{2,3}\.\d{3}", line.text)
+                print(ors[0])
 
-
-    # Get crime name
     rank_i += 1
 
 driver.quit()
