@@ -32,46 +32,54 @@ rules = driver.find_elements(By.CLASS_NAME, "rule_div")
 
 
 # Obtain crime rankings, statute, crime name, and ranking factors.
-rank_i = 2
+rank_i = 1
 for rule in rules:
-    # Get rankings.
-    ranking_text = rule.find_element(
-        By.XPATH, f'//*[@id="content"]/div[{rank_i}]/p[1]/strong[2]'
-    ).text
-    ranking_list = ranking_text.split()
-    if ranking_list[-1].isdecimal():
-        ranking = ranking_list[-1]
-        print(ranking)
+    if rank_i != 1:
+        # Get rankings.
+        ranking_text = rule.find_element(
+            By.XPATH, f'//*[@id="content"]/div[{rank_i}]/p[1]/strong[2]'
+        ).text
+        ranking_list = ranking_text.split()
+        if ranking_list[-1].isdecimal():
+            ranking = ranking_list[-1]
+            print(ranking)
 
-    # Get ORS and crime name
-    # Ranking 11 has special path structure.
-    if ranking == "11":
-        crime_line = rule.find_element(By.XPATH, f'//*[@id="content"]/div[2]/p[3]').text
-        ors = re.search(r"\b\d{2,3}\.\d{3}", crime_line)
-        crime_name = re.search(
-            r"\d{2,3}\.\d{3}\s*—\s*([a-zA-Z\s]+?)(?=\*?\s*—)", crime_line
-        )
-        print(ors[0], "-", crime_name.group(1).strip())
+        # Get ORS and crime name
+        # Ranking 11 has special path structure.
+        if ranking == "11":
+            crime_line = rule.find_element(
+                By.XPATH, f'//*[@id="content"]/div[2]/p[3]'
+            ).text
+            ors = re.search(r"\b\d{2,3}\.\d{3}", crime_line)
+            crime_name = re.search(
+                r"\d{2,3}\.\d{3}\s*—\s*([a-zA-Z\s]+?)(?=\*?\s*—)", crime_line
+            )
+            print(ors[0], "-", crime_name.group(1).strip())
 
-    else:
-        ors_i = 1
-        crime_line = rule.find_elements(
-            By.XPATH, f'//*[@id="content"]/div[{rank_i}]/p/span'
-        )
-        for line in crime_line:
-            # Exception for a odd line (ORS 163.115 Attempted Murder II)
-            if "ORS 163.115" in line.text:
-                # Include code to insert hard code for this crime. TODO Fix this later.
-                continue
+        else:
+            ors_i = 1
+            crime_line = rule.find_elements(
+                By.XPATH, f'//*[@id="content"]/div[{rank_i}]/p/span'
+            )
+            for line in crime_line:
+                # Exception for a odd line (ORS 163.115 Attempted Murder II)
+                if "ORS 163.115" in line.text:
+                    # TODO add code. 
+                    continue
+                # Exception for odd line (ORS 164.405 & 164.415 Rob1 and Rob2)
+                if ("ORS 164.405" or "ORS 164.415") in line.text:
+                    # TODO add code 
+                    continue
+                # Exception for ORS 163.187 (Strangulation), ranking 6.
+                if "ORS 163.187" in line.text and ors_i == 5:
+                    #TODO add code
+                    continue
 
-            if "ORS" in line.text:
-                ors = re.search(r"\b\d{2,3}\.\d{3}", line.text)
-                crime_name = re.search(
-                    r"\d{2,3}\.\d{3}(?:\([a-zA-Z0-9]+\))*(?:\s*—\s*)?([\w\s/&()\,\.]+?)(?=\*?\s*—|\s*—|\s*\()",
-                    line.text,
-                )
-                # r"\d{2,3}\.\d{3}(?:\s*—\s*)?([a-zA-Z\s]+?)(?=\*?\s*—)"
-                print(ors[0], "-", crime_name.group(1).strip())
+                if "ORS" in line.text:
+                    ors = re.search(r"\b\d{2,3}\.\d{3}", line.text)
+                    crime_name = re.search(r"[–—]\s*([A-Z\s\-.,()&/]+)", line.text)
+                    if ors and crime_name:
+                        print(ors[0], "-", crime_name.group(1).strip())
 
     rank_i += 1
 
