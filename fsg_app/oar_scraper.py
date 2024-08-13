@@ -9,11 +9,6 @@ options = webdriver.ChromeOptions()
 options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=options)
 
-# Setup database connection.
-conn = sqlite3.connect("instance/fsg_app.sqlite")
-cur = conn.cursor()
-# cur.execute('USE fsg_app')
-
 # TODO
 """
 You could use a list of the division numbers and loop through them. One problem
@@ -30,6 +25,7 @@ driver.get(url)
 
 rules = driver.find_elements(By.CLASS_NAME, "rule_div")
 
+fsg_data = []
 
 # Obtain crime rankings, statute, crime name, and ranking factors.
 rank_i = 1
@@ -42,7 +38,6 @@ for rule in rules:
         ranking_list = ranking_text.split()
         if ranking_list[-1].isdecimal():
             ranking = ranking_list[-1]
-            print(ranking)
 
         # Get ORS and crime name
         # Ranking 11 has special path structure.
@@ -54,7 +49,12 @@ for rule in rules:
             crime_name = re.search(
                 r"\d{2,3}\.\d{3}\s*—\s*([a-zA-Z\s]+?)(?=\*?\s*—)", crime_line
             )
-            print(ors[0], "-", crime_name.group(1).strip())
+            crime_name = crime_name.group(1).strip()
+            ors = ors[0]
+            # print(ors, "-", crime_name)
+
+            new_crime = {'ranking': ranking, 'name': crime_name, 'statute': ors}
+            fsg_data.append(new_crime)
 
         else:
             ors_i = 1
@@ -79,8 +79,12 @@ for rule in rules:
                     ors = re.search(r"\b\d{2,3}\.\d{3}", line.text)
                     crime_name = re.search(r"[–—]\s*([A-Z\s\-.,()&/]+)", line.text)
                     if ors and crime_name:
-                        print(ors[0], "-", crime_name.group(1).strip())
+                        crime_name = crime_name.group(1).strip()
+                        ors = ors[0]
+                        # print(ors, "-", crime_name)
 
+                new_crime = {'ranking': ranking, 'name': crime_name, 'statute': ors}
+                fsg_data.append(new_crime)
     rank_i += 1
 
 driver.quit()
