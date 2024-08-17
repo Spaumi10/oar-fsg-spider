@@ -1,5 +1,4 @@
 import re
-import sqlite3
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -38,6 +37,7 @@ for rule in rules:
         ranking_list = ranking_text.split()
         if ranking_list[-1].isdecimal():
             ranking = ranking_list[-1]
+            print(ranking)
 
         # Get ORS and crime name
         # Ranking 11 has special path structure.
@@ -53,7 +53,7 @@ for rule in rules:
             ors = ors[0]
             # print(ors, "-", crime_name)
 
-            new_crime = {'ranking': ranking, 'name': crime_name, 'statute': ors}
+            new_crime = {"ranking": ranking, "crime_name": crime_name, "ors": ors}
             fsg_data.append(new_crime)
 
         else:
@@ -64,27 +64,32 @@ for rule in rules:
             for line in crime_line:
                 # Exception for a odd line (ORS 163.115 Attempted Murder II)
                 if "ORS 163.115" in line.text:
-                    # TODO add code. 
+                    # TODO add code.
                     continue
                 # Exception for odd line (ORS 164.405 & 164.415 Rob1 and Rob2)
-                if ("ORS 164.405" or "ORS 164.415") in line.text:
-                    # TODO add code 
+                elif "ORS 164.405" in line.text or "ORS 164.415" in line.text:
+                    # TODO add code
                     continue
                 # Exception for ORS 163.187 (Strangulation), ranking 6.
-                if "ORS 163.187" in line.text and ors_i == 5:
-                    #TODO add code
+                elif "ORS 163.187" in line.text and ranking == "6":
+                    # TODO add code
                     continue
 
-                if "ORS" in line.text:
+                elif re.search(r"ORS\s\d", line.text):
                     ors = re.search(r"\b\d{2,3}\.\d{3}", line.text)
                     crime_name = re.search(r"[–—]\s*([A-Z\s\-.,()&/]+)", line.text)
                     if ors and crime_name:
                         crime_name = crime_name.group(1).strip()
                         ors = ors[0]
-                        # print(ors, "-", crime_name)
+                        print(ors, "-", crime_name)
 
-                new_crime = {'ranking': ranking, 'name': crime_name, 'statute': ors}
+                else:
+                    continue
+
+                new_crime = {"crime_name": crime_name, "ors": ors, "ranking": ranking}
                 fsg_data.append(new_crime)
     rank_i += 1
+
+# TODO Need to store fsg_data in another file.
 
 driver.quit()

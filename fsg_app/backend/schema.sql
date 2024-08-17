@@ -10,7 +10,7 @@ DROP TABLE IF EXISTS crime_types;
 CREATE TABLE crimes(
     crime_id INTEGER PRIMARY KEY,
     crime_name TEXT NOT NULL,
-    ors TEXT NOT NULL UNIQUE,
+    ors TEXT NOT NULL,
     ranking INTEGER,
     ranking_language TEXT,
     crime_type_id INTEGER,
@@ -28,3 +28,13 @@ CREATE TABLE crime_types(
     crime_type_id INTEGER PRIMARY KEY,
     crime_type TEXT NOT NULL
 );
+
+
+-- --------------
+-- Inserts crime types
+-- --------------
+INSERT INTO crime_types (crime_type) VALUES 
+    ('person'), 
+    ('property'),
+    ('drug'), 
+    ('other');
