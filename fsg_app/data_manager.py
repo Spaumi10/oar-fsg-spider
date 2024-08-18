@@ -16,7 +16,7 @@ def store_data(data):
     cur = con.cursor()
     for entry in data:
         cur.execute(
-            "INSERT INTO crimes (crime_name, ors, ranking) VALUES(:crime_name, :ors, :ranking)",
+            "INSERT INTO crimes (crime_name, ors, ranking, felony_class) VALUES(:crime_name, :ors, :ranking, :felony_class)",
             entry,
         )
 

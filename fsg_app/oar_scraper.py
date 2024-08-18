@@ -37,7 +37,7 @@ for rule in rules:
         ranking_list = ranking_text.split()
         if ranking_list[-1].isdecimal():
             ranking = ranking_list[-1]
-            print(ranking)
+            # print(ranking)
 
         # Get ORS and crime name
         # Ranking 11 has special path structure.
@@ -51,9 +51,16 @@ for rule in rules:
             )
             crime_name = crime_name.group(1).strip()
             ors = ors[0]
-            # print(ors, "-", crime_name)
+            felony_class = re.search(r"[–—]\s\(([A-Z])\)", crime_line)
+            felony_class = felony_class.group(1)
+            # print(ors, "-", crime_name, felony_class)
 
-            new_crime = {"ranking": ranking, "crime_name": crime_name, "ors": ors}
+            new_crime = {
+                "ranking": ranking,
+                "crime_name": crime_name,
+                "ors": ors,
+                "felony_class": felony_class,
+            }
             fsg_data.append(new_crime)
 
         else:
@@ -78,18 +85,28 @@ for rule in rules:
                 elif re.search(r"ORS\s\d", line.text):
                     ors = re.search(r"\b\d{2,3}\.\d{3}", line.text)
                     crime_name = re.search(r"[–—]\s*([A-Z\s\-.,()&/]+)", line.text)
-                    if ors and crime_name:
+                    felony_class = re.search(r"[–—-]+\s*\(([A-Z])\)", line.text)
+                    if ors and crime_name and felony_class:
                         crime_name = crime_name.group(1).strip()
                         ors = ors[0]
-                        print(ors, "-", crime_name)
+                        felony_class = felony_class.group(1)
+                        # print(ors, "-", crime_name, "class", felony_class)
+
+                    # else:
+                    # print(f"Line missing data: {line.text}")
 
                 else:
+                    # If line didn't meet any criteria; prevents duplicate entries.
                     continue
 
-                new_crime = {"crime_name": crime_name, "ors": ors, "ranking": ranking}
+                new_crime = {
+                    "crime_name": crime_name,
+                    "ors": ors,
+                    "ranking": ranking,
+                    "felony_class": felony_class,
+                }
                 fsg_data.append(new_crime)
     rank_i += 1
 
-# TODO Need to store fsg_data in another file.
 
 driver.quit()

@@ -13,6 +13,7 @@ CREATE TABLE crimes(
     ors TEXT NOT NULL,
     ranking INTEGER,
     ranking_language TEXT,
+    felony_class TEXT,
     crime_type_id INTEGER,
     FOREIGN KEY (crime_type_id)
         REFERENCES crime_types
