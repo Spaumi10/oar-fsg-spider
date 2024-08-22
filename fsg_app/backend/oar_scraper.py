@@ -37,9 +37,10 @@ for rule in rules:
         ranking_list = ranking_text.split()
         if ranking_list[-1].isdecimal():
             ranking = ranking_list[-1]
-            # print(ranking)
+            print(ranking)
 
         # Get ORS and crime name
+
         # Ranking 11 has special path structure.
         if ranking == "11":
             crime_line = rule.find_element(
@@ -53,7 +54,7 @@ for rule in rules:
             ors = ors[0]
             felony_class = re.search(r"[–—]\s\(([A-Z])\)", crime_line)
             felony_class = felony_class.group(1)
-            # print(ors, "-", crime_name, felony_class)
+            print(ors, "-", crime_name, felony_class)
 
             new_crime = {
                 "ranking": ranking,
@@ -64,6 +65,7 @@ for rule in rules:
             fsg_data.append(new_crime)
 
         else:
+            # TODO refactor to a function the ors, crime_name, felony_class search and assignment.
             ors_i = 1
             crime_line = rule.find_elements(
                 By.XPATH, f'//*[@id="content"]/div[{rank_i}]/p/span'
@@ -71,29 +73,71 @@ for rule in rules:
             for line in crime_line:
                 # Exception for a odd line (ORS 163.115 Attempted Murder II)
                 if "ORS 163.115" in line.text:
-                    # TODO add code.
-                    continue
-                # Exception for odd line (ORS 164.405 & 164.415 Rob1 and Rob2)
-                elif "ORS 164.405" in line.text or "ORS 164.415" in line.text:
-                    # TODO add code
-                    continue
-                # Exception for ORS 163.187 (Strangulation), ranking 6.
-                elif "ORS 163.187" in line.text and ranking == "6":
-                    # TODO add code
+                    new_crime = {
+                        "crime_name": "ATTEMPTED MURDER II",
+                        "ors": "163.115",
+                        "ranking": "9",
+                        "felony_class": "A",
+                    }
+
+                    fsg_data.append(new_crime)
                     continue
 
-                elif re.search(r"ORS\s\d", line.text):
+                # Exception for odd line (ORS 164.405 & 164.415 Robb1 and Robb2)
+                elif "ORS 164.405" in line.text or "ORS 164.415" in line.text:
                     ors = re.search(r"\b\d{2,3}\.\d{3}", line.text)
+                    crime_name = re.search(
+                        r"(\b\d{2,3}\.\d{3})\s(\w+\s\w+)\s", line.text
+                    )
+                    felony_class = re.search(r"[–—-]+\s*\(([A-Z])\)", line.text)
+                    if ors and crime_name and felony_class:
+                        crime_name = crime_name.group(2).strip()
+                        ors = ors[0]
+                        felony_class = felony_class.group(1)
+                        print(ors, "-", crime_name, "class", felony_class)
+
+                    else:
+                        print(f"Line missing data: {line.text}")
+
+                # Exception for ORS 163.187 (Strangulation), ranking 6.
+                elif "ORS 163.187" in line.text and ranking == "6":
+                    new_crime = {
+                        "crime_name": "STRANGULATION (FELONY)",
+                        "ors": "ORS 163.187(4)(a) - (b) and (d) – (g)",
+                        "ranking": "6",
+                        "felony_class": "C",
+                    }
+
+                    fsg_data.append(new_crime)
+                    continue
+
+                # For all non-excepted ORSs.
+                elif re.search(r"ORS\s\d", line.text):
+                    ors = re.search(r"\b\d{2,3}\.\d{3}[\(\)\w]*", line.text)
                     crime_name = re.search(r"[–—]\s*([A-Z\s\-.,()&/]+)", line.text)
                     felony_class = re.search(r"[–—-]+\s*\(([A-Z])\)", line.text)
+                    ranking_language = re.search(
+                        r"(\([ABC]\)\.\s\(*)([\w\s\d\(\)\$]*\.*)(; otherwise)*",
+                        line.text,
+                    )
                     if ors and crime_name and felony_class:
                         crime_name = crime_name.group(1).strip()
                         ors = ors[0]
                         felony_class = felony_class.group(1)
-                        # print(ors, "-", crime_name, "class", felony_class)
+                        if ranking_language:
+                            ranking_language = ranking_language.group(2).strip()
+                        print(
+                            ors,
+                            "-",
+                            crime_name,
+                            "class",
+                            felony_class,
+                            "--",
+                            ranking_language,
+                        )
 
-                    # else:
-                    # print(f"Line missing data: {line.text}")
+                    else:
+                        print(f"Line missing data: {line.text}")
 
                 else:
                     # If line didn't meet any criteria; prevents duplicate entries.
