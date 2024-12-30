@@ -10,7 +10,7 @@ driver = webdriver.Chrome(options=options)
 
 
 # Starting division number.
-division_num = [724]
+division_num = [722]
 
 fsg_data = []
 
@@ -35,6 +35,9 @@ for division in division_num:
             if ranking_list[-1].isdecimal():
                 ranking = ranking_list[-1]
                 print(ranking)
+            else:
+                rank_i += 1
+                continue
 
             # Get ORS and crime name
 
