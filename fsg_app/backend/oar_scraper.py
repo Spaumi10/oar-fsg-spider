@@ -36,6 +36,7 @@ for division in division_num:
                 ranking = ranking_list[-1]
                 print(ranking)
             else:
+                # Skips first rule 213-018-0000
                 rank_i += 1
                 continue
 
