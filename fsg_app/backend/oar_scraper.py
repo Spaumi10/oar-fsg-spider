@@ -13,8 +13,7 @@ driver = webdriver.Chrome(options=options)
 # Starting division number.
 division_num = [722]
 
-fsg_data = {}
-
+fsg_data = []
 
 for division in division_num:
     url = f"https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision={division}"
@@ -60,20 +59,15 @@ for division in division_num:
                 ranking_language = None
                 # print(ors, "-", crime_name, felony_class)
 
-                fsg_data[crime_name] = {
-                    "ors": ors,
-                    "felony_class": felony_class,
-                    "ranking": ranking,
-                    "ranking_language": ranking_language,
-                }
-
-                # new_crime = {
-                #     "ranking": ranking,
-                #     "crime_name": crime_name,
-                #     "ors": ors,
-                #     "felony_class": felony_class,
-                # }
-                # fsg_data.append(new_crime)
+                fsg_data.append(
+                    {
+                        "crime_name": crime_name,
+                        "ors": ors,
+                        "felony_class": felony_class,
+                        "ranking": ranking,
+                        "ranking_language": ranking_language,
+                    }
+                )
 
             else:
                 # TODO refactor to a function the ors, crime_name, felony_class search and assignment.
@@ -84,23 +78,16 @@ for division in division_num:
                 for line in crime_line:
                     # Exception for a odd line (ORS 163.115 Attempted Murder II)
                     if "ORS 163.115" in line.text:
-                        
-                        fsg_data["ATTEMPTED MURDER II"] = {
-                            "ors": "163.115",
-                            "felony_class": "A",
-                            "ranking": "9",
-                            "ranking_language": None,
-                        }
+                        fsg_data.append(
+                            {
+                                "crime_name": "ATTEMPTED MURDER II",
+                                "ors": "163.115",
+                                "felony_class": "A",
+                                "ranking": "9",
+                                "ranking_language": None,
+                            }
+                        )
 
-
-                        # new_crime = {
-                        #     "crime_name": "ATTEMPTED MURDER II",
-                        #     "ors": "163.115",
-                        #     "ranking": "9",
-                        #     "felony_class": "A",
-                        # }
-
-                        # fsg_data.append(new_crime)
                         continue
 
                     # Exception for odd line (ORS 164.405 & 164.415 Robb1 and Robb2)
@@ -114,28 +101,27 @@ for division in division_num:
                             crime_name = crime_name.group(2).strip()
                             ors = ors[0]
                             felony_class = felony_class.group(1)
+                            ranking = 9
+                            ranking_language = None
                             # print(ors, "-", crime_name, "class", felony_class)
 
                         else:
                             print(f"Line missing data: {line.text}")
 
+                        continue
+
                     # Exception for ORS 163.187 (Strangulation), ranking 6.
                     elif "ORS 163.187" in line.text and ranking == "6":
-                        fsg_data["STRANGULATION (FELONY)"] = {
-                            "ors": "ORS 163.187(4)(a) - (b) and (d) – (g)",
-                            "ranking": "6",
-                            "felony_class": "C",
-                            "ranking_language": None,
-                        }
+                        fsg_data.append(
+                            {
+                                "crime_name": "STRANGULATION (FELONY)",
+                                "ors": "ORS 163.187(4)(a) - (b) and (d) – (g)",
+                                "ranking": "6",
+                                "felony_class": "C",
+                                "ranking_language": None,
+                            }
+                        )
 
-                        # new_crime = {
-                        #     "crime_name": "STRANGULATION (FELONY)",
-                        #     "ors": "ORS 163.187(4)(a) - (b) and (d) – (g)",
-                        #     "ranking": "6",
-                        #     "felony_class": "C",
-                        # }
-
-                        # fsg_data.append(new_crime)
                         continue
 
                     # For all non-excepted ORSs.
@@ -143,10 +129,15 @@ for division in division_num:
                         ors = re.search(r"\b\d{2,3}\.\d{3}[\(\)\w]*", line.text)
                         crime_name = re.search(r"[–—]\s*([A-Z\s\-.,()&/]+)", line.text)
                         felony_class = re.search(r"[–—-]+\s*\(([A-Z])\)", line.text)
+                        # TODO this regex is missing somethings, specifically when there could be a comma. One example is burg1 with 8.
                         ranking_language = re.search(
-                            r"(\([ABC]\)\.\s\(*)([\w\s\d\(\)\$]*\.*)(; otherwise)*",
+                            r"(\([ABC]\)\.\s\(*)([\w\s\d\(\)\$,]*\.*)(; otherwise)*",
                             line.text,
                         )
+                        # ranking_language = re.search(
+                        #     r"(\([ABC]\)\.\s\(*)([\w\s\d\(\)\$]*\.*)(; otherwise)*",
+                        #     line.text,
+                        # )
                         if ors and crime_name and felony_class:
                             crime_name = crime_name.group(1).strip()
                             ors = ors[0]
@@ -172,20 +163,15 @@ for division in division_num:
                         # If line didn't meet any criteria; prevents duplicate entries.
                         continue
 
-
-                    fsg_data[crime_name] = {
-                        "ors": ors,
-                        "felony_class": felony_class,
-                        "ranking": ranking,
-                        "ranking_language": ranking_language,
-                    }
-                    # new_crime = {
-                    #     "crime_name": crime_name,
-                    #     "ors": ors,
-                    #     "ranking": ranking,
-                    #     "felony_class": felony_class,
-                    # }
-                    # fsg_data.append(new_crime)
+                    fsg_data.append(
+                        {
+                            "crime_name": crime_name,
+                            "ors": ors,
+                            "felony_class": felony_class,
+                            "ranking": ranking,
+                            "ranking_language": ranking_language,
+                        }
+                    )
         rank_i += 1
 
         if division == 724:
@@ -214,29 +200,22 @@ for division in division_num:
             felony_class = felony_class.group(1)
             # print(ors, "-", crime_name, felony_class)
 
-            fsg_data[crime_name] = {
-                "ors": ors,
-                "felony_class": felony_class,
-                "ranking": ranking,
-                "ranking_language": ranking_language,
-            }
-
-            # new_crime = {
-            #     "ranking": ranking,
-            #     "crime_name": crime_name,
-            #     "ors": ors,
-            #     "felony_class": felony_class,
-            # }
-            # fsg_data.append(new_crime)
-
-
+            fsg_data.append(
+                {
+                    "crime_name": crime_name,
+                    "ors": ors,
+                    "felony_class": felony_class,
+                    "ranking": ranking,
+                    "ranking_language": ranking_language,
+                }
+            )
 
 
 print(f"Final Data: {fsg_data}")
 driver.quit()
 
 
-# Write data to json    
-json_data = json.dumps(fsg_data)
+# Write data to json
+# json_data = json.dumps(fsg_data)
 with open("fsg_data.json", "w") as f:
-    json.dump(json_data, f)
+    json.dump(fsg_data, f, indent=2)

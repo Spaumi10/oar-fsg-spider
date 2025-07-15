@@ -1,1 +1,2326 @@
-"{\"ATTEMPT AGGRAVATED MURDER\": {\"ors\": \"163.095\", \"felony_class\": \"A\", \"ranking\": \"11\", \"ranking_language\": null}, \"ATTEMPT MURDER I\": {\"ors\": \"163.107\", \"felony_class\": \"A\", \"ranking\": \"10\", \"ranking_language\": null}, \"MANSLAUGHTER I\": {\"ors\": \"163.118\", \"felony_class\": \"A\", \"ranking\": \"10\", \"ranking_language\": null}, \"AGGRAVATED VEHICULAR HOMICIDE\": {\"ors\": \"163.149\", \"felony_class\": \"A\", \"ranking\": \"10\", \"ranking_language\": null}, \"ASSAULT I\": {\"ors\": \"163.185\", \"felony_class\": \"A\", \"ranking\": \"9\", \"ranking_language\": \"If victim(s) substantially contributed to the commission of the offense by precipitating attack\"}, \"KIDNAPPING I\": {\"ors\": \"163.235\", \"felony_class\": \"A\", \"ranking\": \"10\", \"ranking_language\": null}, \"RAPE I\": {\"ors\": \"163.375\", \"felony_class\": \"A\", \"ranking\": \"9\", \"ranking_language\": \"If not categorized at CC 10.\"}, \"SODOMY I\": {\"ors\": \"163.405\", \"felony_class\": \"A\", \"ranking\": \"9\", \"ranking_language\": \"If not categorized at CC 10.\"}, \"SEXUAL PENETRATION I\": {\"ors\": \"163.411\", \"felony_class\": \"A\", \"ranking\": \"9\", \"ranking_language\": \"If not categorized at CC 10.\"}, \"ARSON I\": {\"ors\": \"164.325\", \"felony_class\": \"A\", \"ranking\": \"7\", \"ranking_language\": \"If the offense cannot be ranked at CC 8\"}, \"ATTEMPTED MURDER II\": {\"ors\": \"163.115\", \"felony_class\": \"A\", \"ranking\": \"9\", \"ranking_language\": null}, \"ASSAULT II\": {\"ors\": \"163.175\", \"felony_class\": \"B\", \"ranking\": \"9\", \"ranking_language\": null}, \"KIDNAPPING II\": {\"ors\": \"163.225\", \"felony_class\": \"B\", \"ranking\": \"9\", \"ranking_language\": null}, \"SUBJECTING ANOTHER PERSON TO INVOLUNTARY SERVITUDE I\": {\"ors\": \"163.264\", \"felony_class\": \"B\", \"ranking\": \"6\", \"ranking_language\": \"If offender physically restrained or threatened to physically restrain a person\"}, \"BURGLARY I\": {\"ors\": \"164.225\", \"felony_class\": \"A\", \"ranking\": \"7\", \"ranking_language\": \"If the offense cannot be ranked at CC 8 or 9.\"}, \"ROBBERY II\": {\"ors\": \"164.405\", \"felony_class\": \"B\", \"ranking\": \"9\", \"ranking_language\": \"If offense did not represent a threat of serious physical injury (CC 10) and the economic loss is greater than $50\"}, \"ROBBERY I\": {\"ors\": \"164.415\", \"felony_class\": \"A\", \"ranking\": \"9\", \"ranking_language\": \"If offense did not represent a threat of serious physical injury (CC 10) and the economic loss is greater than $50\"}, \"MANSLAUGHTER II\": {\"ors\": \"163.125\", \"felony_class\": \"B\", \"ranking\": \"8\", \"ranking_language\": \"If not categorized at CC 9.\"}, \"NEGLIGENT HOMICIDE\": {\"ors\": \"163.145\", \"felony_class\": \"B\", \"ranking\": \"8\", \"ranking_language\": \"If not categorized at CC 9.\"}, \"ASSAULT III\": {\"ors\": \"163.165\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": \"If the offense cannot be ranked at CC 8).\"}, \"FEMALE GENITAL MUTILIATION\": {\"ors\": \"163.207\", \"felony_class\": \"B\", \"ranking\": \"8\", \"ranking_language\": null}, \"RAPE II\": {\"ors\": \"163.365\", \"felony_class\": \"B\", \"ranking\": \"8\", \"ranking_language\": null}, \"SODOMY II\": {\"ors\": \"163.395\", \"felony_class\": \"B\", \"ranking\": \"8\", \"ranking_language\": null}, \"SEXUAL PENETRATION II\": {\"ors\": \"163.408\", \"felony_class\": \"B\", \"ranking\": \"8\", \"ranking_language\": null}, \"SEXUAL ABUSE II\": {\"ors\": \"163.425\", \"felony_class\": \"C\", \"ranking\": \"7\", \"ranking_language\": \"If not CC 8.\"}, \"SEXUAL ABUSE I\": {\"ors\": \"163.427\", \"felony_class\": \"B\", \"ranking\": \"8\", \"ranking_language\": null}, \"ONLINE SEXUAL CORRUPTION OF A CHILD I\": {\"ors\": \"163.433\", \"felony_class\": \"B\", \"ranking\": \"8\", \"ranking_language\": null}, \"BUYING/SELLING THE CUSTODY OF A MINOR\": {\"ors\": \"163.537\", \"felony_class\": \"B\", \"ranking\": \"8\", \"ranking_language\": \"If the conduct is likely to endanger the health or welfare of the child\"}, \"USING CHILD IN DISPLAY OF SEXUAL CONDUCT\": {\"ors\": \"163.670\", \"felony_class\": \"A\", \"ranking\": \"8\", \"ranking_language\": null}, \"ENCOURAGING CHILD SEX ABUSE I\": {\"ors\": \"163.684\", \"felony_class\": \"B\", \"ranking\": \"8\", \"ranking_language\": null}, \"STALKING\": {\"ors\": \"163.732\", \"felony_class\": \"C\", \"ranking\": \"8\", \"ranking_language\": null}, \"VIOLATE COURT STALKING ORDER\": {\"ors\": \"163.750\", \"felony_class\": \"C\", \"ranking\": \"8\", \"ranking_language\": null}, \"TREE SPIKING-INJURY\": {\"ors\": \"164.877(3)\", \"felony_class\": \"B\", \"ranking\": \"8\", \"ranking_language\": null}, \"INMATE POSSESSION OF WEAPON\": {\"ors\": \"166.275\", \"felony_class\": \"A\", \"ranking\": \"8\", \"ranking_language\": \"If firearm\"}, \"PROMOTING PROSTITUTION\": {\"ors\": \"167.012\", \"felony_class\": \"C\", \"ranking\": \"8\", \"ranking_language\": null}, \"COMPELLING PROSTITUTION\": {\"ors\": \"167.017\", \"felony_class\": \"B\", \"ranking\": \"8\", \"ranking_language\": null}, \"USING A MINOR IN CONTROLLED SUBSTANCE OFFENSE\": {\"ors\": \"167.262\", \"felony_class\": \"A\", \"ranking\": \"4\", \"ranking_language\": null}, \"HIT & RUN VEHICLE (DEATH/SERIOUS INJURY)\": {\"ors\": \"811.705\", \"felony_class\": \"B\", \"ranking\": \"8\", \"ranking_language\": \"See OAR 213\"}, \"UNLAWFUL OPERATION OF WEAPONIZED UNMANNED AIRCRAFT SYSTEM\": {\"ors\": \"837.365(2)(b)\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"ESCAPE I\": {\"ors\": \"162.165\", \"felony_class\": \"B\", \"ranking\": \"7\", \"ranking_language\": null}, \"SUPPLYING CONTRABAND\": {\"ors\": \"162.185\", \"felony_class\": \"C\", \"ranking\": \"4\", \"ranking_language\": \"If offense cannot be ranked at CC 5\"}, \"AGGRAVATED DRIVING WHILE SUSPENDED OR REVOKED\": {\"ors\": \"163.196\", \"felony_class\": \"C\", \"ranking\": \"7\", \"ranking_language\": null}, \"CRIMINAL MISTREATMENT I\": {\"ors\": \"163.205\", \"felony_class\": \"C\", \"ranking\": \"7\", \"ranking_language\": null}, \"COERCION\": {\"ors\": \"163.275\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": \"No threat of physical injury\"}, \"CUSTODIAL SEXUAL MISCONDUCT I\": {\"ors\": \"163.452\", \"felony_class\": \"C\", \"ranking\": \"7\", \"ranking_language\": null}, \"UNLAWFUL CONTACT WITH A CHILD\": {\"ors\": \"163.479\", \"felony_class\": \"C\", \"ranking\": \"7\", \"ranking_language\": null}, \"ABANDON CHILD\": {\"ors\": \"163.535\", \"felony_class\": \"C\", \"ranking\": \"3\", \"ranking_language\": \"If not ranked at CC 7.\"}, \"EXTORTION\": {\"ors\": \"164.075(1)(e)\", \"felony_class\": \"B\", \"ranking\": \"6\", \"ranking_language\": \"If threat to report immigration status or suspected status to law enforcement.\"}, \"INMATE IN POSSESSION OF WEAPON\": {\"ors\": \"166.275\", \"felony_class\": \"A\", \"ranking\": \"7\", \"ranking_language\": \"If firearm CC 8)\"}, \"FURNISHING FIREARM IN FURTHERANCE OF FELONY\": {\"ors\": \"166.429\", \"felony_class\": \"B\", \"ranking\": \"7\", \"ranking_language\": null}, \"AGGRAVATED ANIMAL ABUSE I\": {\"ors\": \"167.322\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": \"If not categorized at CC 7)\"}, \"ANIMAL NEGLECT II (FELONY)\": {\"ors\": \"167.325\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": \"If 11 to 40 animals were the subject of the neglect).\"}, \"ANIMAL NEGLECT I (FELONY)\": {\"ors\": \"167.330\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": \"If 10 to 40 animals were the subject of the neglect).\"}, \"UNLAWFUL DISTRIB. CIGARETTES\": {\"ors\": \"323.482\", \"felony_class\": \"C\", \"ranking\": \"3\", \"ranking_language\": null}, \"UNLAWFUL DISTRIB. TOBACCO PRODUCTS\": {\"ors\": \"323.632\", \"felony_class\": \"C\", \"ranking\": \"3\", \"ranking_language\": null}, \"BRIBERY\": {\"ors\": \"162.015\", \"felony_class\": \"B\", \"ranking\": \"6\", \"ranking_language\": null}, \"BRIBE RECEIVING\": {\"ors\": \"162.025\", \"felony_class\": \"B\", \"ranking\": \"6\", \"ranking_language\": null}, \"PERJURY\": {\"ors\": \"162.065\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"PUBLIC INVESTMENT FRAUD\": {\"ors\": \"162.117\", \"felony_class\": \"B\", \"ranking\": \"6\", \"ranking_language\": null}, \"ESCAPE II\": {\"ors\": \"162.155\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"BRIBING A WITNESS\": {\"ors\": \"162.265\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"BRIBE RECEIVING BY WITNESS\": {\"ors\": \"162.275\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"TAMPERING W/ WITNESS\": {\"ors\": \"162.285\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"HINDERING PROSECUTION\": {\"ors\": \"162.325\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"ASSAULT IV (FELONY)\": {\"ors\": \"163.160(3)\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"STRANGULATION (FELONY)\": {\"ors\": \"163.187(4)(c)\", \"felony_class\": \"C\", \"ranking\": \"5\", \"ranking_language\": null}, \"ASSAULT OF A PUBLIC SAFETY OFFICER\": {\"ors\": \"163.208\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"USE OF A STUN GUN, TEAR GAS, MACE I\": {\"ors\": \"163.213\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"CUSTODIAL INTERFERENCE I\": {\"ors\": \"163.257\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"RAPE III\": {\"ors\": \"163.355\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"SODOMY III\": {\"ors\": \"163.385\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"ONLINE SEXUAL CORRUPTION OF A CHILD II\": {\"ors\": \"163.432\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"PUBLIC INDECENCY (FELONY)\": {\"ors\": \"163.465\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"UNLAWFUL DISSEMINATION OF INTIMATE IMAGE\": {\"ors\": \"163.472\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"INCEST\": {\"ors\": \"163.525\", \"felony_class\": \"C\", \"ranking\": \"1\", \"ranking_language\": \"If the incestuous relationship is between adults\"}, \"CHILD NEGLECT IN THE FIRST DEGREE\": {\"ors\": \"163.547\", \"felony_class\": \"B\", \"ranking\": \"6\", \"ranking_language\": null}, \"POSSESSION OF MATERIAL DEPICTING SEX. EXPLICIT CONDUCT OF A CHILD I\": {\"ors\": \"163.688\", \"felony_class\": \"B\", \"ranking\": \"6\", \"ranking_language\": null}, \"INVASION OF PERSONAL PRIVACY I\": {\"ors\": \"163.701\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"THEFT I\": {\"ors\": \"164.055\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"AGGRAVATED THEFT\": {\"ors\": \"164.057\", \"felony_class\": \"B\", \"ranking\": \"5\", \"ranking_language\": \"If not categorized at CC 6.\"}, \"THEFT OF LOST/MISLAID PROPERTY\": {\"ors\": \"164.065\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"THEFT BY DECEPTION\": {\"ors\": \"164.085\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"THEFT OF SERVICES\": {\"ors\": \"164.125\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"UNAUTHORIZED USE OF VEHICLE\": {\"ors\": \"164.135\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"CRIMINAL POSSESSION OF A RENTED OR LEASED MOTOR VEHICLE\": {\"ors\": \"164.138\", \"felony_class\": \"C\", \"ranking\": \"3\", \"ranking_language\": null}, \"POSSESSION OF RENTED PROPERTY\": {\"ors\": \"164.140(4)\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"MAIL THEFT OR RECEIPT OF STOLEN MAIL\": {\"ors\": \"164.162\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": \"For sentences imposed prior to February 15\"}, \"BURGLARY II\": {\"ors\": \"164.215\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"ARSON II\": {\"ors\": \"164.315\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"CRIMINAL MISCHIEF I\": {\"ors\": \"164.365\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"COMPUTER FRAUD (LOTTERY)\": {\"ors\": \"164.377(5)\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"COMPUTER CRIME\": {\"ors\": \"164.377(5)\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"UNLAWFUL LABEL SOUND RECORDING\": {\"ors\": \"164.868\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"UNLAWFUL RECORD LIVE PERFORMANCE\": {\"ors\": \"164.869\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"UNLAWFUL LABEL VIDEOTAPE\": {\"ors\": \"164.872\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"TREE-SPIKING\": {\"ors\": \"164.877(1)\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"INTERFERE W/ AGRICULTURAL RESEARCH\": {\"ors\": \"164.889\", \"felony_class\": \"C\", \"ranking\": \"3\", \"ranking_language\": null}, \"FORGERY I\": {\"ors\": \"165.013\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"CRIMINAL POSSESSION OF FORGED INSTRUMENT I\": {\"ors\": \"165.022\", \"felony_class\": \"C\", \"ranking\": \"3\", \"ranking_language\": null}, \"CREDIT CARD FRAUD\": {\"ors\": \"165.055(3)(A)\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"NEGOTIATING BAD CHECKS\": {\"ors\": \"165.065\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"UNLAWFUL FACTORING PAYMENT CARD\": {\"ors\": \"165.074\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"FILING A FALSE CLAIM FOR HEALTH CARE PAYMENT\": {\"ors\": \"165.692\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"IDENTITY THEFT\": {\"ors\": \"165.800\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"RIOT\": {\"ors\": \"166.015\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"AGGRAVATED HARRASSMENT\": {\"ors\": \"166.070\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"BIAS CRIME I\": {\"ors\": \"166.165\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"UNLAWFUL USE OF WEAPON\": {\"ors\": \"166.220\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"EX-CON IN POSSESSION OF FIREARM\": {\"ors\": \"166.270\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"UNLAWFUL POSSESSION OF FIREARM\": {\"ors\": \"166.272\", \"felony_class\": \"B\", \"ranking\": \"6\", \"ranking_language\": null}, \"INTENT POSS. FIREARM OR DANG. WEAP. IN PUBLIC BUILDING\": {\"ors\": \"166.370(1)\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"POSSESSION OF DESTRUCTIVE DEVICE\": {\"ors\": \"166.382\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"UNLAWFUL MANUFACTURE OF DESTRUCTIVE DEVICE\": {\"ors\": \"166.384\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"ILLEGAL MANUFACTURE, IMPORTATION OR TRANSFER OF FIREARMS\": {\"ors\": \"166.410\", \"felony_class\": \"B\", \"ranking\": \"6\", \"ranking_language\": null}, \"UNLAWFUL POSSESS SOFT BODY ARMOR\": {\"ors\": \"166.643\", \"felony_class\": \"B\", \"ranking\": \"4\", \"ranking_language\": \"If not categorized at CC 6)\"}, \"LURING A MINOR\": {\"ors\": \"167.057\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"ANIMAL ABUSE I (FELONY)\": {\"ors\": \"167.320\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"SEXUAL ASSAULT OF AN ANIMAL\": {\"ors\": \"167.333\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"ASSAULT OF A LAW ENFORCEMENT ANIMAL\": {\"ors\": \"167.339\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"INTERFERE LIVESTOCK PRODUCTION\": {\"ors\": \"167.388\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"UNAUTHORIZED USE OR DISCLOSURE BY STATE OFFICER OR EMPLOYEE OF INFORMATION PERTAINING TO DELINQUENT DEBTOR TRANSMITTED TO OR FROM DEPARTMENT OF REVENUE THROUGH DATA MATCH SYSTEM\": {\"ors\": \"305.091\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": \"If offender knowingly causes economic loss of less than $1\"}, \"TRADEMARK COUNTERFEITING II\": {\"ors\": \"647.145\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"TRADEMARK COUNTERFEITING I\": {\"ors\": \"647.150\", \"felony_class\": \"B\", \"ranking\": \"2\", \"ranking_language\": null}, \"DRIVING WHILE SUSPENDED/REVOKED (FELONY)\": {\"ors\": \"811.182\", \"felony_class\": \"C\", \"ranking\": \"4\", \"ranking_language\": \"If the offense cannot be ranked at CC 6.\"}, \"HIT & RUN VEHICLE (INJURY)\": {\"ors\": \"811.705\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": \"See OAR 213\"}, \"DRIVING UNDER THE INFLUENCE (FELONY)\": {\"ors\": \"813.011\", \"felony_class\": \"C\", \"ranking\": \"4\", \"ranking_language\": null}, \"POSSESSION OF STOLEN VEHICLE\": {\"ors\": \"819.300\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"TRAFFICKING IN STOLEN VEHICLES\": {\"ors\": \"819.310\", \"felony_class\": \"C\", \"ranking\": \"5\", \"ranking_language\": \"If not categorized at CC 6.\"}, \"HIT AND RUN BOAT\": {\"ors\": \"830.475\", \"felony_class\": \"C\", \"ranking\": \"6\", \"ranking_language\": null}, \"PURCHASE OR SALE OF A BODY PART FOR TRANSPLANTATION OR THERAPY\": {\"ors\": \"97.981\", \"felony_class\": \"C\", \"ranking\": \"5\", \"ranking_language\": null}, \"SUBJECTING ANOTHER PERSON TO INVOLUNTARY SERVITUDE II\": {\"ors\": \"163.263\", \"felony_class\": \"C\", \"ranking\": \"5\", \"ranking_language\": null}, \"BUYING OR SELLING THE CUSTODY OF A MINOR\": {\"ors\": \"163.537\", \"felony_class\": \"B\", \"ranking\": \"5\", \"ranking_language\": \"If cannot be ranked at CC 8.\"}, \"ENCOURAGING CHILD SEX ABUSE II\": {\"ors\": \"163.686\", \"felony_class\": \"C\", \"ranking\": \"5\", \"ranking_language\": null}, \"THEFT BY EXTORTION\": {\"ors\": \"164.075\", \"felony_class\": \"B\", \"ranking\": \"2\", \"ranking_language\": null}, \"THEFT BY RECEIVING\": {\"ors\": \"164.095\", \"felony_class\": \"C\", \"ranking\": \"3\", \"ranking_language\": \"If not ranked at CC 5.\"}, \"ROBBERY III\": {\"ors\": \"164.395\", \"felony_class\": \"C\", \"ranking\": \"5\", \"ranking_language\": null}, \"AGGRAVATED IDENTITY THEFT\": {\"ors\": \"165.803\", \"felony_class\": \"B\", \"ranking\": \"5\", \"ranking_language\": null}, \"ABUSE OF CORPSE I\": {\"ors\": \"166.087\", \"felony_class\": \"B\", \"ranking\": \"5\", \"ranking_language\": null}, \"FELONY POSSESSION OF A HOAX DESTRUCTIVE DEVICE\": {\"ors\": \"166.385(3)\", \"felony_class\": \"C\", \"ranking\": \"5\", \"ranking_language\": null}, \"MAINTAINING A DANGEROUS DOG\": {\"ors\": \"609.990(3)(b)\", \"felony_class\": \"C\", \"ranking\": \"5\", \"ranking_language\": null}, \"ALTERATION OF A DOCUMENT OF GIFT\": {\"ors\": \"97.982\", \"felony_class\": \"C\", \"ranking\": \"4\", \"ranking_language\": null}, \"FAILURE TO APPEAR I\": {\"ors\": \"162.205\", \"felony_class\": \"C\", \"ranking\": \"4\", \"ranking_language\": null}, \"ENDANGERING PERSON PROTECTED BY FAPA RESTRAINING ORDER\": {\"ors\": \"163.192\", \"felony_class\": \"C\", \"ranking\": \"4\", \"ranking_language\": null}, \"CUSTODIAL INTERFERENCE II\": {\"ors\": \"163.245\", \"felony_class\": \"C\", \"ranking\": \"4\", \"ranking_language\": null}, \"POSSESSION OF MATERIAL DEPICTING SEX. EXPLICIT CONDUCT OF CHILD II\": {\"ors\": \"163.689\", \"felony_class\": \"C\", \"ranking\": \"4\", \"ranking_language\": null}, \"ORGANIZED RETAIL THEFT\": {\"ors\": \"164.098\", \"felony_class\": \"B\", \"ranking\": \"4\", \"ranking_language\": null}, \"CRIMINAL POSSESSION OF FORGERY DEVICE\": {\"ors\": \"165.032\", \"felony_class\": \"C\", \"ranking\": \"4\", \"ranking_language\": null}, \"CELLULAR COUNTERFEITING I\": {\"ors\": \"165.581\", \"felony_class\": \"B\", \"ranking\": \"4\", \"ranking_language\": null}, \"UNLAWFUL POSSESSION PERSONAL ID DEVICE.\": {\"ors\": \"165.810\", \"felony_class\": \"C\", \"ranking\": \"4\", \"ranking_language\": null}, \"DISORDERLY CONDUCT I\": {\"ors\": \"166.023\", \"felony_class\": \"C\", \"ranking\": \"4\", \"ranking_language\": null}, \"TAMPER LOTTERY RECORDS\": {\"ors\": \"162.305(2)(b)\", \"felony_class\": \"C\", \"ranking\": \"3\", \"ranking_language\": null}, \"SIMULATING LEGAL PROCESS\": {\"ors\": \"162.355\", \"felony_class\": \"C\", \"ranking\": \"3\", \"ranking_language\": null}, \"CRIMINAL IMPERSONATION OF PEACE OFFICER, JUDGE OR JUSTICE OF THE PEACE\": {\"ors\": \"162.365(3)(b)\", \"felony_class\": \"C\", \"ranking\": \"3\", \"ranking_language\": null}, \"FALSE LAW ENFORCEMENT ID\": {\"ors\": \"162.367\", \"felony_class\": \"C\", \"ranking\": \"3\", \"ranking_language\": null}, \"CRIMINAL NONSUPPORT\": {\"ors\": \"163.555\", \"felony_class\": \"C\", \"ranking\": \"3\", \"ranking_language\": null}, \"POSSESSION OF FAKE COMMUNICATIONS DEVICE\": {\"ors\": \"165.070\", \"felony_class\": \"C\", \"ranking\": \"3\", \"ranking_language\": null}, \"ABUSE OF CORPSE II\": {\"ors\": \"166.085\", \"felony_class\": \"C\", \"ranking\": \"3\", \"ranking_language\": null}, \"PROMOTING LIVE SEX SHOW\": {\"ors\": \"167.062(4)\", \"felony_class\": \"C\", \"ranking\": \"3\", \"ranking_language\": null}, \"UNLAWFUL GAMBLING I\": {\"ors\": \"167.137\", \"felony_class\": \"C\", \"ranking\": \"3\", \"ranking_language\": null}, \"POSSESSION OF GAMBLING RECORDS I\": {\"ors\": \"167.137\", \"felony_class\": \"C\", \"ranking\": \"3\", \"ranking_language\": null}, \"INTERFERE W/AGRICULTURAL RESEARCH\": {\"ors\": \"164.889\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"CRIMINAL POSSESSION FORGED INSTRUMENT I\": {\"ors\": \"165.022\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"SPORTS BRIBERY\": {\"ors\": \"165.085\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"RECEIVING SPORTS BRIBE\": {\"ors\": \"165.090\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"CELLULAR COUNTERFEIT II\": {\"ors\": \"165.579\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"FELON POSSESS SOFT BODY ARMOR\": {\"ors\": \"166.642\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"POSSESS GRAY MACHINE\": {\"ors\": \"167.164\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"CHEATING AT GAMBLING\": {\"ors\": \"167.167\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"OBTAINING PUBLIC ASSISTANCE UNLAWFULLY\": {\"ors\": \"411.630\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"OBTAIN/USE FOOD STAMPS UNLAWFULLY\": {\"ors\": \"411.840\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"VIOLATION OF WILDLIFE LAWS\": {\"ors\": \"496.992(10)\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"FELONY ATTEMPTING TO ELUDE (\": {\"ors\": \"811.540\", \"felony_class\": \"C\", \"ranking\": \"2\", \"ranking_language\": null}, \"BIGAMY\": {\"ors\": \"163.515\", \"felony_class\": \"C\", \"ranking\": \"1\", \"ranking_language\": null}, \"ALTERING FIREARM ID.\": {\"ors\": \"166.450\", \"felony_class\": \"C\", \"ranking\": \"1\", \"ranking_language\": null}, \"THROW OBJECT OFF OVERPASS\": {\"ors\": \"166.651\", \"felony_class\": \"C\", \"ranking\": \"1\", \"ranking_language\": null}, \"UNLAWFUL PARAMILITARY ACTIVITY\": {\"ors\": \"166.660\", \"felony_class\": \"C\", \"ranking\": \"1\", \"ranking_language\": null}, \"TAMPERING W/ DRUG RECORDS\": {\"ors\": \"167.212\", \"felony_class\": \"C\", \"ranking\": \"1\", \"ranking_language\": null}, \"DISTRIBUTE CIGARETTES W/OUT LICENSE\": {\"ors\": \"332.480(2)\", \"felony_class\": \"C\", \"ranking\": \"1\", \"ranking_language\": null}, \"FALSE REPORT/CIGARETTE TAX\": {\"ors\": \"332.480(3)\", \"felony_class\": \"C\", \"ranking\": \"1\", \"ranking_language\": null}, \"UNLAWFUL TRANSPORT UNTAXED CIGARETTES\": {\"ors\": \"332.480(4)\", \"felony_class\": \"C\", \"ranking\": \"1\", \"ranking_language\": null}, \"UNLAWFUL USE OF A VITAL RECORD OR REPORT\": {\"ors\": \"432.993\", \"felony_class\": \"C\", \"ranking\": \"1\", \"ranking_language\": null}, \"SUPPLY FALSE INFO TO AGENCY (ENVIRONMENTAL)\": {\"ors\": \"468.953\", \"felony_class\": \"C\", \"ranking\": \"1\", \"ranking_language\": null}, \"FAILURE TO MAINTAIN RECORDS OF CONTROLLED SUBSTANCES\": {\"ors\": \"475.993(2)(a)\", \"felony_class\": \"C\", \"ranking\": \"1\", \"ranking_language\": null}, \"INDUCING AN ATHLETE/CONTRACT\": {\"ors\": \"702.032\", \"felony_class\": \"C\", \"ranking\": \"1\", \"ranking_language\": null}, \"ATHLETIC AGENT NOTICE REQUIREMENT\": {\"ors\": \"702.042\", \"felony_class\": \"C\", \"ranking\": \"1\", \"ranking_language\": null}, \"FALSE STATEMENT MONEY TRANSMISSION\": {\"ors\": \"717.905(2)\", \"felony_class\": \"C\", \"ranking\": \"1\", \"ranking_language\": null}, \"ENGAGE MONEY TRANSMISSION W/OUT LICENSE\": {\"ors\": \"717.905(3)\", \"felony_class\": \"C\", \"ranking\": \"1\", \"ranking_language\": null}, \"UNLAWFULLY PUBLISHING CERTIFICATE OF TITLE\": {\"ors\": \"803.080\", \"felony_class\": \"C\", \"ranking\": \"1\", \"ranking_language\": null}, \"FORGE/ALTER VEHICLE TITLE/REG.\": {\"ors\": \"803.230\", \"felony_class\": \"C\", \"ranking\": \"1\", \"ranking_language\": null}, \"FALSE SWEARING VEHICLE BUSINESS\": {\"ors\": \"822.605\", \"felony_class\": \"C\", \"ranking\": \"1\", \"ranking_language\": null}}"
+[
+  {
+    "crime_name": "ATTEMPT AGGRAVATED MURDER",
+    "ors": "163.095",
+    "felony_class": "A",
+    "ranking": "11",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ATTEMPT MURDER I",
+    "ors": "163.107",
+    "felony_class": "A",
+    "ranking": "10",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "MANSLAUGHTER I",
+    "ors": "163.118",
+    "felony_class": "A",
+    "ranking": "10",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "AGGRAVATED VEHICULAR HOMICIDE",
+    "ors": "163.149",
+    "felony_class": "A",
+    "ranking": "10",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ASSAULT I",
+    "ors": "163.185",
+    "felony_class": "A",
+    "ranking": "10",
+    "ranking_language": "If victim did not substantially contribute to the commission of the offense by precipitating the attack"
+  },
+  {
+    "crime_name": "KIDNAPPING I",
+    "ors": "163.235",
+    "felony_class": "A",
+    "ranking": "10",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "RAPE I",
+    "ors": "163.375",
+    "felony_class": "A",
+    "ranking": "10",
+    "ranking_language": "If aggravated by factors listed below"
+  },
+  {
+    "crime_name": "SODOMY I",
+    "ors": "163.405",
+    "felony_class": "A",
+    "ranking": "10",
+    "ranking_language": "If aggravated by factors listed below"
+  },
+  {
+    "crime_name": "SEXUAL PENETRATION I",
+    "ors": "163.411",
+    "felony_class": "A",
+    "ranking": "10",
+    "ranking_language": "If aggravated by factors listed below"
+  },
+  {
+    "crime_name": "ARSON I",
+    "ors": "164.325",
+    "felony_class": "A",
+    "ranking": "10",
+    "ranking_language": "If offense represented threat of serious physical injury"
+  },
+  {
+    "crime_name": "ATTEMPTED MURDER II",
+    "ors": "163.115",
+    "felony_class": "A",
+    "ranking": "9",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ASSAULT II",
+    "ors": "163.175",
+    "felony_class": "B",
+    "ranking": "9",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ASSAULT I",
+    "ors": "163.185",
+    "felony_class": "A",
+    "ranking": "9",
+    "ranking_language": "If victim(s) substantially contributed to the commission of the offense by precipitating attack"
+  },
+  {
+    "crime_name": "KIDNAPPING II",
+    "ors": "163.225",
+    "felony_class": "B",
+    "ranking": "9",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "SUBJECTING ANOTHER PERSON TO INVOLUNTARY SERVITUDE I",
+    "ors": "163.264",
+    "felony_class": "B",
+    "ranking": "9",
+    "ranking_language": "If offender caused or threatened to cause death or serious physical injury to a person"
+  },
+  {
+    "crime_name": "RAPE I",
+    "ors": "163.375",
+    "felony_class": "A",
+    "ranking": "9",
+    "ranking_language": "If not categorized at CC 10."
+  },
+  {
+    "crime_name": "SODOMY I",
+    "ors": "163.405",
+    "felony_class": "A",
+    "ranking": "9",
+    "ranking_language": "If not categorized at CC 10."
+  },
+  {
+    "crime_name": "SEXUAL PENETRATION I",
+    "ors": "163.411",
+    "felony_class": "A",
+    "ranking": "9",
+    "ranking_language": "If not categorized at CC 10."
+  },
+  {
+    "crime_name": "BURGLARY I",
+    "ors": "164.225",
+    "felony_class": "A",
+    "ranking": "9",
+    "ranking_language": "If offender was armed with a deadly weapon, or caused, threatened or attempted physical injury"
+  },
+  {
+    "crime_name": "ARSON I",
+    "ors": "164.325",
+    "felony_class": "A",
+    "ranking": "9",
+    "ranking_language": "If offense did not represent a threat of serious physical injury (CC 10) and the economic loss is greater than $50,000"
+  },
+  {
+    "crime_name": "MANSLAUGHTER II",
+    "ors": "163.125",
+    "felony_class": "B",
+    "ranking": "8",
+    "ranking_language": "If not categorized at CC 9."
+  },
+  {
+    "crime_name": "NEGLIGENT HOMICIDE",
+    "ors": "163.145",
+    "felony_class": "B",
+    "ranking": "8",
+    "ranking_language": "If not categorized at CC 9."
+  },
+  {
+    "crime_name": "ASSAULT III",
+    "ors": "163.165",
+    "felony_class": "B",
+    "ranking": "8",
+    "ranking_language": "If offense resulted from operation of a motor vehicle and defendant was the driver of the motor vehicle and was driving while under the influence of intoxicants"
+  },
+  {
+    "crime_name": "FEMALE GENITAL MUTILIATION",
+    "ors": "163.207",
+    "felony_class": "B",
+    "ranking": "8",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "RAPE II",
+    "ors": "163.365",
+    "felony_class": "B",
+    "ranking": "8",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "SODOMY II",
+    "ors": "163.395",
+    "felony_class": "B",
+    "ranking": "8",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "SEXUAL PENETRATION II",
+    "ors": "163.408",
+    "felony_class": "B",
+    "ranking": "8",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "SEXUAL ABUSE II",
+    "ors": "163.425(1)(a)",
+    "felony_class": "C",
+    "ranking": "8",
+    "ranking_language": "If victim incapable of consent because under age 18, offender is age 21 or older, and offender was victim"
+  },
+  {
+    "crime_name": "SEXUAL ABUSE I",
+    "ors": "163.427",
+    "felony_class": "B",
+    "ranking": "8",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ONLINE SEXUAL CORRUPTION OF A CHILD I",
+    "ors": "163.433",
+    "felony_class": "B",
+    "ranking": "8",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "BUYING/SELLING THE CUSTODY OF A MINOR",
+    "ors": "163.537",
+    "felony_class": "B",
+    "ranking": "8",
+    "ranking_language": "If the conduct is likely to endanger the health or welfare of the child, otherwise CC 5."
+  },
+  {
+    "crime_name": "USING CHILD IN DISPLAY OF SEXUAL CONDUCT",
+    "ors": "163.670",
+    "felony_class": "A",
+    "ranking": "8",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ENCOURAGING CHILD SEX ABUSE I",
+    "ors": "163.684",
+    "felony_class": "B",
+    "ranking": "8",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "STALKING",
+    "ors": "163.732",
+    "felony_class": "C",
+    "ranking": "8",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "VIOLATE COURT STALKING ORDER",
+    "ors": "163.750",
+    "felony_class": "C",
+    "ranking": "8",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "BURGLARY I",
+    "ors": "164.225",
+    "felony_class": "A",
+    "ranking": "8",
+    "ranking_language": "If offender did not cause, threaten or attempt physical injury and was not armed with a deadly weapon (CC 9) but the offense was committed while the dwelling was occupied"
+  },
+  {
+    "crime_name": "ARSON I",
+    "ors": "164.325",
+    "felony_class": "A",
+    "ranking": "8",
+    "ranking_language": "If the offense did not represent a threat of serious physical injury (CC 10) and economic loss is $25,000 or more but less than $50,000"
+  },
+  {
+    "crime_name": "TREE SPIKING-INJURY",
+    "ors": "164.877(3)",
+    "felony_class": "B",
+    "ranking": "8",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "INMATE POSSESSION OF WEAPON",
+    "ors": "166.275",
+    "felony_class": "A",
+    "ranking": "8",
+    "ranking_language": "If firearm, otherwise CC 7."
+  },
+  {
+    "crime_name": "PROMOTING PROSTITUTION",
+    "ors": "167.012",
+    "felony_class": "C",
+    "ranking": "8",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "COMPELLING PROSTITUTION",
+    "ors": "167.017",
+    "felony_class": "B",
+    "ranking": "8",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "USING A MINOR IN CONTROLLED SUBSTANCE OFFENSE",
+    "ors": "167.262",
+    "felony_class": "A",
+    "ranking": "8",
+    "ranking_language": "CC 4 if minor less than 3 yrs."
+  },
+  {
+    "crime_name": "HIT & RUN VEHICLE (DEATH/SERIOUS INJURY)",
+    "ors": "811.705",
+    "felony_class": "B",
+    "ranking": "8",
+    "ranking_language": "See OAR 213"
+  },
+  {
+    "crime_name": "UNLAWFUL OPERATION OF WEAPONIZED UNMANNED AIRCRAFT SYSTEM",
+    "ors": "837.365(2)(c)",
+    "felony_class": "B",
+    "ranking": "8",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ESCAPE I",
+    "ors": "162.165",
+    "felony_class": "B",
+    "ranking": "7",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "SUPPLYING CONTRABAND",
+    "ors": "162.185",
+    "felony_class": "C",
+    "ranking": "7",
+    "ranking_language": "If the contraband includes one or more firearms"
+  },
+  {
+    "crime_name": "AGGRAVATED DRIVING WHILE SUSPENDED OR REVOKED",
+    "ors": "163.196",
+    "felony_class": "C",
+    "ranking": "7",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CRIMINAL MISTREATMENT I",
+    "ors": "163.205",
+    "felony_class": "C",
+    "ranking": "7",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "COERCION",
+    "ors": "163.275",
+    "felony_class": "C",
+    "ranking": "7",
+    "ranking_language": "If threat of physical injury"
+  },
+  {
+    "crime_name": "SEXUAL ABUSE II",
+    "ors": "163.425",
+    "felony_class": "C",
+    "ranking": "7",
+    "ranking_language": "If not CC 8."
+  },
+  {
+    "crime_name": "CUSTODIAL SEXUAL MISCONDUCT I",
+    "ors": "163.452",
+    "felony_class": "C",
+    "ranking": "7",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL CONTACT WITH A CHILD",
+    "ors": "163.479",
+    "felony_class": "C",
+    "ranking": "7",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ABANDON CHILD",
+    "ors": "163.535",
+    "felony_class": "C",
+    "ranking": "7",
+    "ranking_language": "If child is placed in immediate physical danger"
+  },
+  {
+    "crime_name": "EXTORTION",
+    "ors": "164.075",
+    "felony_class": "B",
+    "ranking": "7",
+    "ranking_language": "If threat of physical injury"
+  },
+  {
+    "crime_name": "BURGLARY I",
+    "ors": "164.225",
+    "felony_class": "A",
+    "ranking": "7",
+    "ranking_language": "If the offense cannot be ranked at CC 8 or 9."
+  },
+  {
+    "crime_name": "ARSON I",
+    "ors": "164.325",
+    "felony_class": "A",
+    "ranking": "7",
+    "ranking_language": "If the offense cannot be ranked at CC 8, 9 or 10."
+  },
+  {
+    "crime_name": "INMATE IN POSSESSION OF WEAPON",
+    "ors": "166.275",
+    "felony_class": "A",
+    "ranking": "7",
+    "ranking_language": "If firearm CC 8)"
+  },
+  {
+    "crime_name": "FURNISHING FIREARM IN FURTHERANCE OF FELONY",
+    "ors": "166.429",
+    "felony_class": "B",
+    "ranking": "7",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "AGGRAVATED ANIMAL ABUSE I",
+    "ors": "167.322",
+    "felony_class": "C",
+    "ranking": "7",
+    "ranking_language": "If the circumstances described in ORS 167."
+  },
+  {
+    "crime_name": "ANIMAL NEGLECT II (FELONY)",
+    "ors": "167.325",
+    "felony_class": "C",
+    "ranking": "7",
+    "ranking_language": "If more than 40 animals were the subject of the neglect or if the offense is a felony because of circumstances described in ORS 167."
+  },
+  {
+    "crime_name": "ANIMAL NEGLECT I (FELONY)",
+    "ors": "167.330",
+    "felony_class": "C",
+    "ranking": "7",
+    "ranking_language": "If more than 40 animals were the subject of the neglect or if the offense is a felony because of circumstances described in ORS 167."
+  },
+  {
+    "crime_name": "UNLAWFUL DISTRIB. CIGARETTES",
+    "ors": "323.482",
+    "felony_class": "B",
+    "ranking": "7",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL DISTRIB. TOBACCO PRODUCTS",
+    "ors": "323.632",
+    "felony_class": "B",
+    "ranking": "7",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "BRIBERY",
+    "ors": "162.015",
+    "felony_class": "B",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "BRIBE RECEIVING",
+    "ors": "162.025",
+    "felony_class": "B",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "PERJURY",
+    "ors": "162.065",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "PUBLIC INVESTMENT FRAUD",
+    "ors": "162.117",
+    "felony_class": "B",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ESCAPE II",
+    "ors": "162.155",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "SUPPLYING CONTRABAND",
+    "ors": "162.185",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": "The contraband involves a dangerous weapon not a firearm CC 7"
+  },
+  {
+    "crime_name": "BRIBING A WITNESS",
+    "ors": "162.265",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "BRIBE RECEIVING BY WITNESS",
+    "ors": "162.275",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "TAMPERING W/ WITNESS",
+    "ors": "162.285",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "HINDERING PROSECUTION",
+    "ors": "162.325",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ASSAULT IV (FELONY)",
+    "ors": "163.160(3)",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ASSAULT III",
+    "ors": "163.165",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": "If the offense cannot be ranked at CC 8)."
+  },
+  {
+    "crime_name": "STRANGULATION (FELONY)",
+    "ors": "ORS 163.187(4)(a) - (b) and (d) \u2013 (g)",
+    "ranking": "6",
+    "felony_class": "C",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ASSAULT OF A PUBLIC SAFETY OFFICER",
+    "ors": "163.208",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "USE OF A STUN GUN, TEAR GAS, MACE I",
+    "ors": "163.213",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CUSTODIAL INTERFERENCE I",
+    "ors": "163.257",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "SUBJECTING ANOTHER PERSON TO INVOLUNTARY SERVITUDE I",
+    "ors": "163.264",
+    "felony_class": "B",
+    "ranking": "6",
+    "ranking_language": "If offender physically restrained or threatened to physically restrain a person"
+  },
+  {
+    "crime_name": "COERCION",
+    "ors": "163.275",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": "No threat of physical injury"
+  },
+  {
+    "crime_name": "RAPE III",
+    "ors": "163.355",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "SODOMY III",
+    "ors": "163.385",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ONLINE SEXUAL CORRUPTION OF A CHILD II",
+    "ors": "163.432",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "PUBLIC INDECENCY (FELONY)",
+    "ors": "163.465",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL DISSEMINATION OF INTIMATE IMAGE",
+    "ors": "163.472",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "INCEST",
+    "ors": "163.525",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": "If one of the participants is under the age of 18"
+  },
+  {
+    "crime_name": "CHILD NEGLECT IN THE FIRST DEGREE",
+    "ors": "163.547",
+    "felony_class": "B",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "POSSESSION OF MATERIAL DEPICTING SEX. EXPLICIT CONDUCT OF A CHILD I",
+    "ors": "163.688",
+    "felony_class": "B",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "INVASION OF PERSONAL PRIVACY I",
+    "ors": "163.701",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT I",
+    "ors": "164.055",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "AGGRAVATED THEFT",
+    "ors": "164.057",
+    "felony_class": "B",
+    "ranking": "6",
+    "ranking_language": "Economic loss was greater than $50,000"
+  },
+  {
+    "crime_name": "THEFT OF LOST/MISLAID PROPERTY",
+    "ors": "164.065",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "EXTORTION",
+    "ors": "164.075",
+    "felony_class": "B",
+    "ranking": "6",
+    "ranking_language": "If not CC 7 and if not threat to report immigration status or suspected immigration status to law enforcement under ORS 164."
+  },
+  {
+    "crime_name": "EXTORTION",
+    "ors": "164.075(1)(e)",
+    "felony_class": "B",
+    "ranking": "6",
+    "ranking_language": "If threat to report immigration status or suspected status to law enforcement."
+  },
+  {
+    "crime_name": "THEFT BY DECEPTION",
+    "ors": "164.085",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT OF SERVICES",
+    "ors": "164.125",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNAUTHORIZED USE OF VEHICLE",
+    "ors": "164.135",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CRIMINAL POSSESSION OF A RENTED OR LEASED MOTOR VEHICLE",
+    "ors": "164.138",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "POSSESSION OF RENTED PROPERTY",
+    "ors": "164.140(4)",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "MAIL THEFT OR RECEIPT OF STOLEN MAIL",
+    "ors": "164.162",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": "For sentences imposed prior to February 15, 2010, and for sentences imposed for crimes committed on or after January 1, 2012"
+  },
+  {
+    "crime_name": "BURGLARY II",
+    "ors": "164.215",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ARSON II",
+    "ors": "164.315",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CRIMINAL MISCHIEF I",
+    "ors": "164.365",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "COMPUTER FRAUD (LOTTERY)",
+    "ors": "164.377",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "COMPUTER CRIME",
+    "ors": "164.377(3)",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL LABEL SOUND RECORDING",
+    "ors": "164.868",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL RECORD LIVE PERFORMANCE",
+    "ors": "164.869",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL LABEL VIDEOTAPE",
+    "ors": "164.872",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "TREE-SPIKING",
+    "ors": "164.877(1)",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "INTERFERE W/ AGRICULTURAL RESEARCH",
+    "ors": "164.889",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "FORGERY I",
+    "ors": "165.013",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CRIMINAL POSSESSION OF FORGED INSTRUMENT I",
+    "ors": "165.022",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CREDIT CARD FRAUD",
+    "ors": "165.055(3)(A)",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "NEGOTIATING BAD CHECKS",
+    "ors": "165.065",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL FACTORING PAYMENT CARD",
+    "ors": "165.074",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "FILING A FALSE CLAIM FOR HEALTH CARE PAYMENT",
+    "ors": "165.692",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "IDENTITY THEFT",
+    "ors": "165.800",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "RIOT",
+    "ors": "166.015",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "AGGRAVATED HARRASSMENT",
+    "ors": "166.070",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "BIAS CRIME I",
+    "ors": "166.165",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL USE OF WEAPON",
+    "ors": "166.220",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "EX-CON IN POSSESSION OF FIREARM",
+    "ors": "166.270",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL POSSESSION OF FIREARM",
+    "ors": "166.272",
+    "felony_class": "B",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "INTENT POSS. FIREARM OR DANG. WEAP. IN PUBLIC BUILDING",
+    "ors": "166.370(1)",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "POSSESSION OF DESTRUCTIVE DEVICE",
+    "ors": "166.382",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL MANUFACTURE OF DESTRUCTIVE DEVICE",
+    "ors": "166.384",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ILLEGAL MANUFACTURE, IMPORTATION OR TRANSFER OF FIREARMS",
+    "ors": "166.410",
+    "felony_class": "B",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL POSSESS SOFT BODY ARMOR",
+    "ors": "166.643",
+    "felony_class": "B",
+    "ranking": "6",
+    "ranking_language": "If offender committed or was attempting to commit a person felony or misdemeanor involving violence, otherwise CC 4."
+  },
+  {
+    "crime_name": "LURING A MINOR",
+    "ors": "167.057",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ANIMAL ABUSE I (FELONY)",
+    "ors": "167.320",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "AGGRAVATED ANIMAL ABUSE I",
+    "ors": "167.322",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": "If not categorized at CC 7)"
+  },
+  {
+    "crime_name": "ANIMAL NEGLECT II (FELONY)",
+    "ors": "167.325",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": "If 11 to 40 animals were the subject of the neglect)."
+  },
+  {
+    "crime_name": "ANIMAL NEGLECT I (FELONY)",
+    "ors": "167.330",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": "If 10 to 40 animals were the subject of the neglect)."
+  },
+  {
+    "crime_name": "SEXUAL ASSAULT OF AN ANIMAL",
+    "ors": "167.333",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ASSAULT OF A LAW ENFORCEMENT ANIMAL",
+    "ors": "167.339",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "INTERFERE LIVESTOCK PRODUCTION",
+    "ors": "167.388",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNAUTHORIZED USE OR DISCLOSURE BY STATE OFFICER OR EMPLOYEE OF INFORMATION PERTAINING TO DELINQUENT DEBTOR TRANSMITTED TO OR FROM DEPARTMENT OF REVENUE THROUGH DATA MATCH SYSTEM",
+    "ors": "305.091",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": "If offender knowingly causes economic loss of $50,000 or more."
+  },
+  {
+    "crime_name": "TRADEMARK COUNTERFEITING II",
+    "ors": "647.145",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "TRADEMARK COUNTERFEITING I",
+    "ors": "647.150",
+    "felony_class": "B",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "DRIVING WHILE SUSPENDED/REVOKED (FELONY)",
+    "ors": "811.182",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": "If the suspension or revocation resulted from (a) any degree of murder, manslaughter, criminally negligent homicide, or an assault that caused serious physical injury, resulting from the operation of a motor vehicle, or (b) aggravated vehicular homicide or aggravated driving while suspended or revoked)."
+  },
+  {
+    "crime_name": "HIT & RUN VEHICLE (INJURY)",
+    "ors": "811.705",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": "See OAR 213"
+  },
+  {
+    "crime_name": "DRIVING UNDER THE INFLUENCE (FELONY)",
+    "ors": "813.010(5)",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "POSSESSION OF STOLEN VEHICLE",
+    "ors": "819.300",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "TRAFFICKING IN STOLEN VEHICLES",
+    "ors": "819.310",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": "If part of an organized operation or if value of property taken from one or more victims was greater than $50,000"
+  },
+  {
+    "crime_name": "HIT AND RUN BOAT",
+    "ors": "830.475",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL OPERATION OF WEAPONIZED UNMANNED AIRCRAFT SYSTEM",
+    "ors": "837.365(2)(b)",
+    "felony_class": "C",
+    "ranking": "6",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "PURCHASE OR SALE OF A BODY PART FOR TRANSPLANTATION OR THERAPY",
+    "ors": "97.981",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "SUPPLYING CONTRABAND",
+    "ors": "162.185",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": "If contraband includes a controlled substance but no firearms (CC 7) or dangerous weapons (CC 6)"
+  },
+  {
+    "crime_name": "STRANGULATION (FELONY)",
+    "ors": "163.187(4)(c)",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "SUBJECTING ANOTHER PERSON TO INVOLUNTARY SERVITUDE II",
+    "ors": "163.263",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "BUYING OR SELLING THE CUSTODY OF A MINOR",
+    "ors": "163.537",
+    "felony_class": "B",
+    "ranking": "5",
+    "ranking_language": "If cannot be ranked at CC 8."
+  },
+  {
+    "crime_name": "ENCOURAGING CHILD SEX ABUSE II",
+    "ors": "163.686",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT I",
+    "ors": "164.055",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "AGGRAVATED THEFT",
+    "ors": "164.057",
+    "felony_class": "B",
+    "ranking": "5",
+    "ranking_language": "If not categorized at CC 6."
+  },
+  {
+    "crime_name": "THEFT OF LOST/MISLAID PROPERTY",
+    "ors": "164.065",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT BY EXTORTION",
+    "ors": "164.075",
+    "felony_class": "B",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT BY DECEPTION",
+    "ors": "164.085",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT BY RECEIVING",
+    "ors": "164.095",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": "If part of an organized operation"
+  },
+  {
+    "crime_name": "THEFT OF SERVICES",
+    "ors": "164.125",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNAUTHORIZED USE OF VEHICLE",
+    "ors": "164.135",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CRIMINAL POSSESSION OF A RENTED OR LEASED MOTOR VEHICLE",
+    "ors": "164.138",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "POSSESSION OF RENTED PROPERTY",
+    "ors": "164.140(4)",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "BURGLARY II",
+    "ors": "164.215",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ARSON II",
+    "ors": "164.315",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CRIMINAL MISCHIEF I",
+    "ors": "164.365",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "COMPUTER CRIME",
+    "ors": "164.377(2)(c)",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": "If theft of an intimate image."
+  },
+  {
+    "crime_name": "COMPUTER FRAUD (LOTTERY)",
+    "ors": "164.377(5)",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "COMPUTER CRIME",
+    "ors": "164.377(5)",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": "If not theft of an intimate image under ORS 164."
+  },
+  {
+    "crime_name": "ROBBERY III",
+    "ors": "164.395",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL LABEL SOUND RECORDING",
+    "ors": "164.868",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL RECORD LIVE PERFORMANCE",
+    "ors": "164.869",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL LABEL VIDEOTAPE",
+    "ors": "164.872",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "INTERFERE W/ AGRICULTURAL RESEARCH",
+    "ors": "164.889",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "FORGERY I",
+    "ors": "165.013",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CRIMINAL POSSESSION OF FORGED INSTRUMENT I",
+    "ors": "165.022",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CREDIT CARD FRAUD",
+    "ors": "165.055(3)(A)",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "NEGOTIATING BAD CHECKS",
+    "ors": "165.065",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL FACTORING PAYMENT CARD",
+    "ors": "165.074",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "IDENTITY THEFT",
+    "ors": "165.800",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "AGGRAVATED IDENTITY THEFT",
+    "ors": "165.803",
+    "felony_class": "B",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ABUSE OF CORPSE I",
+    "ors": "166.087",
+    "felony_class": "B",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "FELONY POSSESSION OF A HOAX DESTRUCTIVE DEVICE",
+    "ors": "166.385(3)",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "INTERFERE LIVESTOCK PRODUCTION",
+    "ors": "167.388",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNAUTHORIZED USE OR DISCLOSURE BY STATE OFFICER OR EMPLOYEE OF INFORMATION PERTAINING TO DELINQUENT DEBTOR TRANSMITTED TO OR FROM DEPARTMENT OF REVENUE THROUGH DATA MATCH SYSTEM",
+    "ors": "305.091",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": "If offender knowingly causes economic loss of $10,000 or more but less than $50,000."
+  },
+  {
+    "crime_name": "UNLAWFUL DISTRIB. CIGARETTES",
+    "ors": "323.482",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL DISTRIB. TOBACCO PRODUCTS",
+    "ors": "323.632",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "MAINTAINING A DANGEROUS DOG",
+    "ors": "609.990(3)(b)",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "TRADEMARK COUNTERFEITING II",
+    "ors": "647.145",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "TRADEMARK COUNTERFEITING I",
+    "ors": "647.150",
+    "felony_class": "B",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "POSSESSION OF STOLEN VEHICLE",
+    "ors": "819.300",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "TRAFFICKING IN STOLEN VEHICLES",
+    "ors": "819.310",
+    "felony_class": "C",
+    "ranking": "5",
+    "ranking_language": "If not categorized at CC 6."
+  },
+  {
+    "crime_name": "ALTERATION OF A DOCUMENT OF GIFT",
+    "ors": "97.982",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "SUPPLYING CONTRABAND",
+    "ors": "162.185",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": "If offense cannot be ranked at CC 5, 6 or 7."
+  },
+  {
+    "crime_name": "FAILURE TO APPEAR I",
+    "ors": "162.205",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ENDANGERING PERSON PROTECTED BY FAPA RESTRAINING ORDER",
+    "ors": "163.192",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CUSTODIAL INTERFERENCE II",
+    "ors": "163.245",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "POSSESSION OF MATERIAL DEPICTING SEX. EXPLICIT CONDUCT OF CHILD II",
+    "ors": "163.689",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT I",
+    "ors": "164.055",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT OF LOST/MISLAID PROPERTY",
+    "ors": "164.065",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT BY EXTORTION",
+    "ors": "164.075",
+    "felony_class": "B",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT BY DECEPTION",
+    "ors": "164.085",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ORGANIZED RETAIL THEFT",
+    "ors": "164.098",
+    "felony_class": "B",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT OF SERVICES",
+    "ors": "164.125",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNAUTHORIZED USE OF VEHICLE",
+    "ors": "164.135",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CRIMINAL POSSESSION OF A RENTED OR LEASED MOTOR VEHICLE",
+    "ors": "164.138",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "POSSESSION OF RENTED PROPERTY",
+    "ors": "164.140(4)",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "BURGLARY II",
+    "ors": "164.215",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ARSON II",
+    "ors": "164.315",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CRIMINAL MISCHIEF I",
+    "ors": "164.365",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": "Except ORS 164."
+  },
+  {
+    "crime_name": "COMPUTER FRAUD (LOTTERY)",
+    "ors": "164.377(5)",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "COMPUTER CRIME",
+    "ors": "164.377(5)",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL LABEL SOUND RECORDING",
+    "ors": "164.868",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL RECORD LIVE PERFORMANCE",
+    "ors": "164.869",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL LABEL VIDEOTAPE",
+    "ors": "164.872",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "FORGERY I",
+    "ors": "165.013",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CRIMINAL POSSESSION OF FORGED INSTRUMENT I",
+    "ors": "165.022",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CRIMINAL POSSESSION OF FORGERY DEVICE",
+    "ors": "165.032",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CREDIT CARD FRAUD",
+    "ors": "165.055(3)(A)",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "NEGOTIATING BAD CHECKS",
+    "ors": "165.065",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL FACTORING PAYMENT CARD",
+    "ors": "165.074",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CELLULAR COUNTERFEITING I",
+    "ors": "165.581",
+    "felony_class": "B",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "IDENTITY THEFT",
+    "ors": "165.800",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL POSSESSION PERSONAL ID DEVICE.",
+    "ors": "165.810",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "DISORDERLY CONDUCT I",
+    "ors": "166.023",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL POSSESS SOFT BODY ARMOR",
+    "ors": "166.643",
+    "felony_class": "B",
+    "ranking": "4",
+    "ranking_language": "If not categorized at CC 6)"
+  },
+  {
+    "crime_name": "USING A MINOR IN CONTROLLED SUBSTANCE OFFENSE",
+    "ors": "167.262",
+    "felony_class": "A",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "INTERFERE LIVESTOCK PRODUCTION",
+    "ors": "167.388",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNAUTHORIZED USE OR DISCLOSURE BY STATE OFFICER OR EMPLOYEE OF INFORMATION PERTAINING TO DELINQUENT DEBTOR TRANSMITTED TO OR FROM DEPARTMENT OF REVENUE THROUGH DATA MATCH SYSTEM",
+    "ors": "305.091",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": "If offender knowingly causes economic loss of $5,000 or more but less than $10,000."
+  },
+  {
+    "crime_name": "TRADEMARK COUNTERFEITING II",
+    "ors": "647.145",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "TRADEMARK COUNTERFEITING I",
+    "ors": "647.150",
+    "felony_class": "B",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "DRIVING WHILE SUSPENDED/REVOKED (FELONY)",
+    "ors": "811.182",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": "If the offense cannot be ranked at CC 6."
+  },
+  {
+    "crime_name": "DRIVING UNDER THE INFLUENCE (FELONY)",
+    "ors": "813.011",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "POSSESSION OF STOLEN VEHICLE",
+    "ors": "819.300",
+    "felony_class": "C",
+    "ranking": "4",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "TAMPER LOTTERY RECORDS",
+    "ors": "162.305(2)(b)",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "SIMULATING LEGAL PROCESS",
+    "ors": "162.355",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CRIMINAL IMPERSONATION OF PEACE OFFICER, JUDGE OR JUSTICE OF THE PEACE",
+    "ors": "162.365(3)(b)",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "FALSE LAW ENFORCEMENT ID",
+    "ors": "162.367",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ABANDON CHILD",
+    "ors": "163.535",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": "If not ranked at CC 7."
+  },
+  {
+    "crime_name": "CRIMINAL NONSUPPORT",
+    "ors": "163.555",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT I",
+    "ors": "164.055",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT OF LOST/MISLAID PROPERTY",
+    "ors": "164.065",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT BY EXTORTION",
+    "ors": "164.075",
+    "felony_class": "B",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT BY DECEPTION",
+    "ors": "164.085",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT BY RECEIVING",
+    "ors": "164.095",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": "If not ranked at CC 5."
+  },
+  {
+    "crime_name": "THEFT OF SERVICES",
+    "ors": "164.125",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNAUTHORIZED USE OF VEHICLE",
+    "ors": "164.135",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CRIMINAL POSSESSION OF A RENTED OR LEASED MOTOR VEHICLE",
+    "ors": "164.138",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "POSSESSION OF RENTED PROPERTY",
+    "ors": "164.140(4)",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "BURGLARY II",
+    "ors": "164.215",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ARSON II",
+    "ors": "164.315",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CRIMINAL MISCHIEF I",
+    "ors": "164.365",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "COMPUTER FRAUD (LOTTERY)",
+    "ors": "164.377(5)",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "COMPUTER CRIME",
+    "ors": "164.377(5)",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL LABEL SOUND RECORDING",
+    "ors": "164.868",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL RECORD LIVE PERFORMANCE",
+    "ors": "164.869",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL LABEL VIDEOTAPE",
+    "ors": "164.872",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "INTERFERE W/ AGRICULTURAL RESEARCH",
+    "ors": "164.889",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "FORGERY I",
+    "ors": "165.013",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CRIMINAL POSSESSION OF FORGED INSTRUMENT I",
+    "ors": "165.022",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CREDIT CARD FRAUD",
+    "ors": "165.055(4)(B)",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "NEGOTIATING BAD CHECKS",
+    "ors": "165.065",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "POSSESSION OF FAKE COMMUNICATIONS DEVICE",
+    "ors": "165.070",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL FACTORING PAYMENT CARD",
+    "ors": "165.074",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "IDENTITY THEFT",
+    "ors": "165.800",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ABUSE OF CORPSE II",
+    "ors": "166.085",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "PROMOTING LIVE SEX SHOW",
+    "ors": "167.062(4)",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL GAMBLING I",
+    "ors": "167.137",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "POSSESSION OF GAMBLING RECORDS I",
+    "ors": "167.137",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "INTERFERE LIVESTOCK PRODUCTION",
+    "ors": "167.388",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNAUTHORIZED USE OR DISCLOSURE BY STATE OFFICER OR EMPLOYEE OF INFORMATION PERTAINING TO DELINQUENT DEBTOR TRANSMITTED TO OR FROM DEPARTMENT OF REVENUE THROUGH DATA MATCH SYSTEM",
+    "ors": "305.091",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": "If offender knowingly causes economic loss of $1,000 or more but less than $5,000."
+  },
+  {
+    "crime_name": "TRADEMARK COUNTERFEITING II",
+    "ors": "647.145",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "TRADEMARK COUNTERFEITING I",
+    "ors": "647.150",
+    "felony_class": "B",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "POSSESSION OF STOLEN VEHICLE",
+    "ors": "819.300",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL DISTRIB. CIGARETTES",
+    "ors": "323.482",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL DISTRIB. TOBACCO PRODUCTS",
+    "ors": "323.632",
+    "felony_class": "C",
+    "ranking": "3",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT I",
+    "ors": "164.055",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT OF LOST/MISLAID PROPERTY",
+    "ors": "164.065",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT BY EXTORTION",
+    "ors": "164.075",
+    "felony_class": "B",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT BY DECEPTION",
+    "ors": "164.085",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THEFT OF SERVICES",
+    "ors": "164.125",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNAUTHORIZED USE OF VEHICLE",
+    "ors": "164.135",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "POSSESSION OF RENTED PROPERTY",
+    "ors": "164.140(4)",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "BURGLARY II",
+    "ors": "164.215",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ARSON II",
+    "ors": "164.315",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CRIMINAL MISCHIEF I",
+    "ors": "164.365",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "COMPUTER FRAUD (LOTTERY)",
+    "ors": "164.377(5)",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "COMPUTER CRIME",
+    "ors": "164.377(5)",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL LABEL SOUND RECORDING",
+    "ors": "164.868",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL RECORD LIVE PERFORMANCE",
+    "ors": "164.869",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL LABEL VIDEOTAPE",
+    "ors": "164.872",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "INTERFERE W/AGRICULTURAL RESEARCH",
+    "ors": "164.889",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "FORGERY I",
+    "ors": "165.013",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CRIMINAL POSSESSION FORGED INSTRUMENT I",
+    "ors": "165.022",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CREDIT CARD FRAUD",
+    "ors": "165.055(3)(A)",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "NEGOTIATING BAD CHECKS",
+    "ors": "165.065",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL FACTORING PAYMENT CARD",
+    "ors": "165.074",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "SPORTS BRIBERY",
+    "ors": "165.085",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "RECEIVING SPORTS BRIBE",
+    "ors": "165.090",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CELLULAR COUNTERFEIT II",
+    "ors": "165.579",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "IDENTITY THEFT",
+    "ors": "165.800",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "FELON POSSESS SOFT BODY ARMOR",
+    "ors": "166.642",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "POSSESS GRAY MACHINE",
+    "ors": "167.164",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "CHEATING AT GAMBLING",
+    "ors": "167.167",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "INTERFERE LIVESTOCK PRODUCTION",
+    "ors": "167.388",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNAUTHORIZED USE OR DISCLOSURE BY STATE OFFICER OR EMPLOYEE OF INFORMATION PERTAINING TO DELINQUENT DEBTOR TRANSMITTED TO OR FROM DEPARTMENT OF REVENUE THROUGH DATA MATCH SYSTEM",
+    "ors": "305.091",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": "If offender knowingly causes economic loss of less than $1,000."
+  },
+  {
+    "crime_name": "OBTAINING PUBLIC ASSISTANCE UNLAWFULLY",
+    "ors": "411.630",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "OBTAIN/USE FOOD STAMPS UNLAWFULLY",
+    "ors": "411.840",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "VIOLATION OF WILDLIFE LAWS",
+    "ors": "496.992(10)",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "TRADEMARK COUNTERFEITING II",
+    "ors": "647.145",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "TRADEMARK COUNTERFEITING I",
+    "ors": "647.150",
+    "felony_class": "B",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "FELONY ATTEMPTING TO ELUDE (",
+    "ors": "811.540",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "POSSESSION OF STOLEN VEHICLE",
+    "ors": "819.300",
+    "felony_class": "C",
+    "ranking": "2",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "BIGAMY",
+    "ors": "163.515",
+    "felony_class": "C",
+    "ranking": "1",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "INCEST",
+    "ors": "163.525",
+    "felony_class": "C",
+    "ranking": "1",
+    "ranking_language": "If the incestuous relationship is between adults"
+  },
+  {
+    "crime_name": "ALTERING FIREARM ID.",
+    "ors": "166.450",
+    "felony_class": "C",
+    "ranking": "1",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "THROW OBJECT OFF OVERPASS",
+    "ors": "166.651",
+    "felony_class": "C",
+    "ranking": "1",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL PARAMILITARY ACTIVITY",
+    "ors": "166.660",
+    "felony_class": "C",
+    "ranking": "1",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "TAMPERING W/ DRUG RECORDS",
+    "ors": "167.212",
+    "felony_class": "C",
+    "ranking": "1",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "DISTRIBUTE CIGARETTES W/OUT LICENSE",
+    "ors": "332.480(2)",
+    "felony_class": "C",
+    "ranking": "1",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "FALSE REPORT/CIGARETTE TAX",
+    "ors": "332.480(3)",
+    "felony_class": "C",
+    "ranking": "1",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL TRANSPORT UNTAXED CIGARETTES",
+    "ors": "332.480(4)",
+    "felony_class": "C",
+    "ranking": "1",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFUL USE OF A VITAL RECORD OR REPORT",
+    "ors": "432.993",
+    "felony_class": "C",
+    "ranking": "1",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "SUPPLY FALSE INFO TO AGENCY (ENVIRONMENTAL)",
+    "ors": "468.953",
+    "felony_class": "C",
+    "ranking": "1",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "FAILURE TO MAINTAIN RECORDS OF CONTROLLED SUBSTANCES",
+    "ors": "475.993(2)(a)",
+    "felony_class": "C",
+    "ranking": "1",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "INDUCING AN ATHLETE/CONTRACT",
+    "ors": "702.032",
+    "felony_class": "C",
+    "ranking": "1",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ATHLETIC AGENT NOTICE REQUIREMENT",
+    "ors": "702.042",
+    "felony_class": "C",
+    "ranking": "1",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "FALSE STATEMENT MONEY TRANSMISSION",
+    "ors": "717.905(2)",
+    "felony_class": "C",
+    "ranking": "1",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "ENGAGE MONEY TRANSMISSION W/OUT LICENSE",
+    "ors": "717.905(3)",
+    "felony_class": "C",
+    "ranking": "1",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "UNLAWFULLY PUBLISHING CERTIFICATE OF TITLE",
+    "ors": "803.080",
+    "felony_class": "C",
+    "ranking": "1",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "FORGE/ALTER VEHICLE TITLE/REG.",
+    "ors": "803.230",
+    "felony_class": "C",
+    "ranking": "1",
+    "ranking_language": null
+  },
+  {
+    "crime_name": "FALSE SWEARING VEHICLE BUSINESS",
+    "ors": "822.605",
+    "felony_class": "C",
+    "ranking": "1",
+    "ranking_language": null
+  }
+]
