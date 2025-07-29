@@ -10,11 +10,12 @@ options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=options)
 
 
-# Starting division number.
+# Starting division number. Could add more if needed.
 division_num = [722]
 
 fsg_data = []
 
+# For getting crime data.
 for division in division_num:
     url = f"https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision={division}"
     # It is at 10, so I can solve CAPTCHA.
@@ -91,6 +92,7 @@ for division in division_num:
                         continue
 
                     # Exception for odd line (ORS 164.405 & 164.415 Robb1 and Robb2)
+                    # TODO this isn't working. It isn't getting them.
                     elif "ORS 164.405" in line.text or "ORS 164.415" in line.text:
                         ors = re.search(r"\b\d{2,3}\.\d{3}", line.text)
                         crime_name = re.search(
@@ -103,12 +105,12 @@ for division in division_num:
                             felony_class = felony_class.group(1)
                             ranking = 9
                             ranking_language = None
-                            # print(ors, "-", crime_name, "class", felony_class)
+                            print(ors, "-", crime_name, "class", felony_class)
 
                         else:
                             print(f"Line missing data: {line.text}")
 
-                        continue
+                        # continue
 
                     # Exception for ORS 163.187 (Strangulation), ranking 6.
                     elif "ORS 163.187" in line.text and ranking == "6":
@@ -129,7 +131,6 @@ for division in division_num:
                         ors = re.search(r"\b\d{2,3}\.\d{3}[\(\)\w]*", line.text)
                         crime_name = re.search(r"[–—]\s*([A-Z\s\-.,()&/]+)", line.text)
                         felony_class = re.search(r"[–—-]+\s*\(([A-Z])\)", line.text)
-                        # TODO this regex is missing somethings, specifically when there could be a comma. One example is burg1 with 8.
                         ranking_language = re.search(
                             r"(\([ABC]\)\.\s\(*)([\w\s\d\(\)\$,]*\.*)(; otherwise)*",
                             line.text,
@@ -211,11 +212,11 @@ for division in division_num:
             )
 
 
-print(f"Final Data: {fsg_data}")
+# print(f"Final Data: {fsg_data}")
 driver.quit()
 
-
+# content > div > p:nth-child(17)
 # Write data to json
 # json_data = json.dumps(fsg_data)
-with open("fsg_data.json", "w") as f:
+with open("data/fsg_data.json", "w") as f:
     json.dump(fsg_data, f, indent=2)
